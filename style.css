@@ -1,0 +1,246 @@
+
+.logo {
+  text-align: right;
+}
+.logo svg {
+  width: 100px;
+  padding: 2em;
+}
+
+header {
+  background-color: #fce373;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-around;
+  background-color: #CCA698;
+  padding: 3em;
+}
+
+.card-group .card {
+  width: 32vw;
+  margin: 0 2vw;
+  height: 400px;
+  background-color: #9ad18b;
+  padding: 20px;
+}
+
+.card-group .card img {
+  width: 100%;
+  background-color: #9ad18b;
+}
+
+.homepage-content img {
+  width: 100%;
+}
+
+header .header-title h2 {
+  font-weight: 600;
+  letter-spacing: .02em;
+  font-size: 4em;
+  text-transform: uppercase;
+  line-height: .9em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: .1em;
+  padding: 7vw 4vw .5vw;
+  text-align: center;
+}
+header .header-title p {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: .01em;
+  line-height: 1em;
+  font-size: 1.2em;
+}
+header .header-title {
+  margin-bottom: 20px;
+}
+
+header .button {
+  display: inline-block;
+  padding: .5em 0.75em;
+  background-color: #231f20;
+  color: #fce373;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: .02em;
+  line-height: .9em;
+  text-transform: uppercase;
+  border: none;
+
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+header .button i {
+  transform: rotate(45deg)
+}
+
+header .button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #CCA698;
+  color: #231f20;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+header .button:hover {
+  color: #231f20;
+}
+
+header .button:hover:before {
+  width: 100%;
+}
+
+header .controls-cta {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.homepage-content {
+  background-color: #CCA698;
+  min-height: 50vh;
+  font-family: Arial,
+    Helvetica,
+    sans-serif;
+}
+
+.homepage-content .controls-cta {
+  position: absolute;
+  width: 80%;
+  left: 20%;
+}
+
+.homepage-content .button {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #fce373;
+  color: #231f20;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: .02em;
+  line-height: .9em;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.homepage-content .button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #231f20;
+  color: #231f20;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.homepage-content .button:hover {
+  color: #fce373;
+}
+
+.homepage-content .button:hover:before {
+  width: 100%;
+}
+
+
+.homepage-content .button i.left {
+  transform: rotate(-135deg)
+}
+
+@media screen and (min-width: 940px) {
+header .header-title h2 {
+  font-size: 12em;
+}
+
+header .header-title p {
+  font-size: 2em;
+}
+
+header .button {
+  padding: .65em 1.75em;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.homepage-content .controls-cta {
+
+  left: 30%;
+}
+
+.homepage-content .button {
+  padding: .65em 1.75em;
+  font-size: 25px;
+}
+
+.homepage-content img {
+  position: relative;
+  width: 100%;
+}
+
+.homepage-content a {
+  text-decoration: underline;
+  text-decoration-color: #231f20;
+  color: #231f20;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex .content {
+  width: 50%;
+  padding: 4em;
+}
+
+.flex .content h2 {
+  font-size: 4.875em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+  .card-group {
+    display: flex;
+    justify-content: space-around;
+    background-color: #CCA698;
+    padding: 3em;
+  }
+
+  .card-group .card {
+    width: 32vw;
+    margin: 0 2vw;
+    height: 400px;
+    background-color: #9ad18b;
+    padding: 20px;
+  }
+
+  .card-group .card img {
+    width: 100%;
+    background-color: #9ad18b;
+  }
+}
